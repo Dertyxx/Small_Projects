@@ -184,7 +184,7 @@ def tout_selectionner():
                 texte.tag_configure("selection", background="yellow")
                 messagebox.showinfo("Bloc note", "La chaîne de caractères \"" + recherche + "\" a été trouvée.")'''
 
-#définir la fonction pour rechercher et selectionner toutes les occurences de la recherche a la fois de sorte que l'on puisse les remplacer toutes d'un coup sans utliser search
+#définir la fonction pour rechercher et selectionner toutes les occurences de la recherche a la fois
 def rechercher():
       global texte
       global chemin
