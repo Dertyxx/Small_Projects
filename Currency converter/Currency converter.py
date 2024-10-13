@@ -18,7 +18,7 @@ class Converter:
 class App:
     def __init__(self, master):
         self.master = master
-        self.converter = Converter(api_key="RjbgGjELWcOY2Ofn0KNFpcyMIFS4OrIB") #entre votre clé
+        self.converter = Converter(api_key="") #entre votre clé
 
         self.amount_label = tk.Label(master, text="Amount:")
         self.amount_label.grid(row=0, column=0)
